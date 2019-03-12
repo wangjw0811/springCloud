@@ -1,4 +1,4 @@
-package com.example.provider;
+package com.wang.provider2;
 
 import org.springframework.stereotype.Service;
 
@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 public class ServiceImpl implements IService {
 
     public String sayHello(){
-        return "hello cloud from 8002";
+        return "hello cloud from 8003";
     }
 
 }

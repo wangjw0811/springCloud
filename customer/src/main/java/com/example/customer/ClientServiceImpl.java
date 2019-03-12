@@ -10,8 +10,8 @@ public class ClientServiceImpl {
     private RestTemplate restTemplate;
     @Value("${spring-cloud-service}")
     private String url;
-    public String say(){
-        String result = restTemplate.getForObject(url+"sayhello/", String.class);
+    public String sayHello(){
+        String result = restTemplate.getForObject(url+"sayHello/", String.class);
         return result;
     }
 }
